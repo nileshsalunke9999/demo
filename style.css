@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* removing default style of anchor */
+a {
+  text-decoration: none;
+}
+
+/* removing default style of list items */
+li {
+  list-style: none;
+}
+
+/* made the document center */
+.main-container {
+  margin-inline: 15%;
+}
+
+/* Styling the header */
+.header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.header-logo {
+  scale: 0.8;
+  width: fit-content;
+}
+
+.header-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.header-menu ul li a {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.header-menu ul button {
+  font-size: large;
+  font-weight: 200;
+  background-color: #1e1e21;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+
+/* main container */
+/* left-section */
+.on-ear {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-top: 70px;
+  justify-content: space-around;
+}
+
+
+.on-ear-left-section img {
+  width: 230px;
+  position: relative;
+  top: -250px;
+  left: 70px;
+}
+
+/* right-section */
+
+.on-ear-right-section {
+  margin-left: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.on-ear-right-section .img {
+  width: 320px;
+  margin-left: 55px;
+}
+
+.Description h1 {
+  font-weight: 600;
+  font-size: 46px;
+  margin-bottom: 25px;
+}
+
+.Description h3 {
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.Description p {
+  width: 65%;
+  font-size: 13px;
+  font-weight: 200;
+  color: #bdc0c2;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.on-ear-right-section-btn {
+  width: fit-content;
+  background-color: #1e1e21;
+  display: flex;
+  gap: 22px;
+  padding: 12px 20px;
+  border-radius: 12px;
+}
+
+.on-ear-right-section-btn img {
+  scale: 0.7;
+}
+
+.on-ear-right-section-btn img,
+.txt {
+  background: transparent;
+  font-weight: 100;
+}
+
+/* Company section */
+.company-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.company-section div img {
+  scale: 0.8;
+}
+
+/* specification section */
+.specs {
+  margin: 10% 0;
+}
+
+.specs .specs-logo {
+  text-align: center;
+  scale: 0.8;
+}
+
+.specs .main-specs {
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+  margin-top: 25px;
+}
+
+.specs-list div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.specs-list div img {
+  scale: 0.8;
+}
+
+.specs-list div p {
+  font-size: 12px;
+}
+
+.specs-list div p:last-child {
+  margin-top: 5px;
+  width: 70%;
+  font-size: 9px;
+  color: #bdc0c2;
+}
+
+.specs-image img {
+  scale: 0.8;
+}
+
+.common-margin {
+  margin-left: 33px;
+}
+
+/* Case Section style */
+.case-section .case-section-logo {
+  text-align: center;
+  scale: 0.8;
+}
+
+.case-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.case-info .case-img {
+  scale: 0.7;
+}
+
+.case-description {
+  width: 19%;
+}
+
+.case-info .case-description p {
+  color: #bdc0c2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.case-description .case-description-btn {
+  width: fit-content;
+  background-color: #1e1e21;
+  border-radius: 8px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.case-description .case-description-btn img {
+  scale: 0.8;
+  background: transparent;
+}
+
+.case-description .case-description-btn span {
+  /* scale: 0.6; */
+  font-size: 14px;
+  background: transparent;
+}
+
+/* offer section styling */
+.offer-section {
+  margin: 10% 0;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background: #181a1b;
+  padding: 40px 0;
+  border-radius: 12px;
+}
+
+.offer-section .offer p {
+  color: #bdc0c2;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.offer-btn {
+  width: fit-content;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.offer-btn img {
+  scale: 0.6;
+}
+
+.offer-btn span {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.offer,
+h3,
+p {
+  background: transparent;
+}
+
+.offer-section-img,
+img {
+  background: transparent;
+}
+
+/* Cart section */
+.cart-section {
+  margin: 10% 0;
+ 
+}
+
+.cart-section .cart-section-logo {
+  scale: 0.8;
+  text-align: center;
+}
+
+.cart-item-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.cart {
+  position: relative;
+  width: 135px;
+  height: 135px;
+  background: #181a1b;
+  border-radius: 10px;
+}
+
+.cart .product-img img {
+  width: 70px;
+  height: 90px;
+  position: absolute;
+  z-index: 100;
+  top: -40px;
+  left: 32px;
+}
+
+.product-description {
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 5px 14px;
+}
+
+.product-price,
+p {
+  font-size: 12px;
+  background: transparent;
+}
+
+.product-price p:last-child {
+  color: #bdc0c2;
+}
+
+.product-description .bag {
+  padding: 2px 6px;
+  border-radius: 8px;
+  background-color: #0a0a0b;
+}
+
+.bag img {
+  width: 13px;
+  height: 13px;
+  background: transparent;
+}
+
+/* Footer section styling */
+
+footer{
+  margin: 10% 0;
+  position: relative;
+}
+footer .footer-container{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* align-items: center; */
+}
+
+.footer-logo {
+  scale: 0.8;
+ 
+}
+.list li:first-child{
+  margin-bottom: 13%;
+}
+
+.list li:first-child a {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  /* margin:80 0; */
+}
+
+.list li a {
+  font-size: 12px;
+  color: #BDC0C2;
+}
+
+.subscription-area {
+  display: flex;
+  border-radius: 12px;
+  background: #181A1B;
+  background-repeat: 8px;
+  padding: 6px 8px;
+ 
+}
+
+.subscription-area span {
+  background: transparent;
+}
+
+.subscription-area span input {
+  background: transparent;
+  border: none;
+  padding: 8px 0px;
+}
+
+.subcription-area-btn {
+  background: #0A0A0B;
+  border-radius: 8px;
+  padding: 8px 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.subscription-area-logos{
+  margin-top: 30px;
+  display: flex;
+  gap: 20px ;
+}
+.logos img{
+  scale: 0.8;
+}
+footer .image{
+  /* margin-right: 30px; */
+  scale: 0.8;
+  position: absolute;
+  z-index: 100;
+  top: 0px;
+  right: -130px;
+   
+}
